@@ -29,7 +29,7 @@ h2 {
     color: black;
     text-decoration: none;
 }
-#site2 {}
+#site2 {
 /* a.site2:link { */
     #site2 {
     font-family: 'Roboto';
@@ -37,7 +37,7 @@ h2 {
     font-size: 0.8em;
     color: rgb(11, 121, 211);
     text-decoration: none;
-    padding: 10px;
+    padding-top: 10px;
 }
 /* a:link {
     text-decoration: none;
