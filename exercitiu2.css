@@ -1,1 +1,21 @@
-
+body {
+    box-sizing: border-box;
+    width: 500px;
+    align-content: center;
+    margin: auto;
+}
+h1, h2 {
+    font-family: 'Barlow';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+#imagine {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+div p {
+    font-family: 'Barlow';
+    font-weight: normal;
+    font-size: 0.8em;
+}
