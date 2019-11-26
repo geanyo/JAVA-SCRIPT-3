@@ -1,0 +1,20 @@
+table {
+    margin: auto;
+    margin-top: 20px;
+    /* padding: 20px; de obicei, tabelul se lasa fara padding */
+    border: 2px solid salmon;
+    background-color: white;
+    border-spacing: 0px; 
+    /* border-spacing: 5px; asta controleaza spatiul dintre casute */
+    border-collapse: collapse;
+}
+th {
+    background-color: lightpink;
+    border-bottom: 2px solid salmon;
+}
+td {
+    background-color: lightgray;
+    /* border: 1px solid black; */
+    border-top: 1px solid salmon;
+    border-bottom: 1px solid salmon;
+}
