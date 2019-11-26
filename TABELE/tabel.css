@@ -3,7 +3,6 @@ table {
     margin-top: 20px;
     /* padding: 20px; de obicei, tabelul se lasa fara padding */
     border: 2px solid salmon;
-    background-color: white;
     border-spacing: 0px; 
     /* border-spacing: 5px; asta controleaza spatiul dintre casute */
     border-collapse: collapse;
@@ -11,10 +10,24 @@ table {
 th {
     background-color: lightpink;
     border-bottom: 2px solid salmon;
+    text-align: left;
+    padding: 10px;
 }
 td {
-    background-color: lightgray;
+    /* background-color: lightgray; */
     /* border: 1px solid black; */
     border-top: 1px solid salmon;
     border-bottom: 1px solid salmon;
+    padding: 10px;
+    /* width: 33%; */
 }
+tr:nth-child(even) {
+    background-color: lime;
+}
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
+/* tr:nth-child(2n+1) {
+    se stilizeaza din 2 in 2, incepand cu primul element
+} */
+
