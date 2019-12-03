@@ -1,0 +1,34 @@
+a {
+color: lightpink;
+text-decoration: none;
+}
+a:link {
+text-decoration: khaki;
+}
+a:visited {
+text-decoration: lightslategray;
+}
+a:hover {
+cursor: progress;
+text-decoration: underline;
+text-decoration-color: lightseagreen;
+}
+::selection {
+    background-color: lightslategrey;
+}
+/* ::first-line {
+    text-transform: lowercase;
+} */
+::first-letter {
+    text-transform: uppercase;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* top: 1em;      SE VA DESCHIDE CASUTA IN SUS FATA DE ORIGINEA LUI */
+    background-color: lightslategrey;
+    border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
