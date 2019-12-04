@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    background-color:lightgrey;
+    width: 60%;
+    padding: 1em;
+}
+input, select {
+    display: block;
+    margin: 1em;
+}
+input[type=text] {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid rgb(174, 177, 180);
+    padding: 1em 2em;
+}
+input[type=submit] {
+    width: 95%;
+    background-color: rgb(84, 173, 85);
+    color: white;
+    font-size: 1.1em;
+    padding: 0.3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(175, 27, 138);
+}
+select {
+    width: 95%;
+    color: rgb(179, 13, 13);
+    background-color: rgb(223, 243, 210);
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
+
+/* option {
+    color: paleturquoise;
+    background-color: purple;
+} elementele din selectie nu se pot stiliza, se poate stiliza doar parintele lui, in acest caz casuta de - SELECT  */
