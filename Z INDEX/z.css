@@ -1,0 +1,26 @@
+div:first-child {
+    background-color: crimson;
+    /* background-color: rgba (220, 20, 60, 0.5); */
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    opacity: 0.5;
+    /* opacity: 0.5; BY DEFAULT VALOARE OPACA ESTE 1, IAR VALOARE TRANSPARENTA ESTE 0. OPACITATEA SE APLICA SI PE TEXT*/
+}
+div:nth-child(2) {
+    background-color: gold;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    /* z-index: -1; BY DEFAULT VALOAREA ESTE 0, DECI IL PUNEM DEDESUBT CU -1*/
+    /* z-index: -1; */
+}
+div:nth-child(3) {
+    position: relative;
+    margin-top: 30%;
+    /* z-index: 2; */
+}
