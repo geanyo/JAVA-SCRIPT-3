@@ -21,6 +21,7 @@ div:nth-child(2) {
 }
 div:nth-child(3) {
     position: relative;
+    /* position: relative; CAND SUNT MAI MULTE ELEMENTE, POSITION ESTE PESTE Z-INDEX SI TOATE ELELEMENTELE CU POSITION VOR FI PUSE PESTE CELE CARE AU DOAR Z-INDEX */
     margin-top: 30%;
     /* z-index: 2; */
 }
