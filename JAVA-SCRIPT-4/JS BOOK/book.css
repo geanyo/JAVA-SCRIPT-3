@@ -57,3 +57,9 @@ footer {
     font-size: 0.9em;
     vertical-align: top;
 }
+footer p {
+    padding: 1.2em 0em 0em 0em;
+}
+footer input[type="button"] {
+    margin: 2em;
+}
