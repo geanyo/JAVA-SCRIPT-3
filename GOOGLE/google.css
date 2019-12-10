@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 15em;
+    padding: 1.2em;
+    display: inline-block;
+    
+}
+input[type="search"] {
+    display: block;
+}
+input[type="button"] {
+    display: inline-block;
+    text-align: center;
+}
