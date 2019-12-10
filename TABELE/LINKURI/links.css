@@ -51,8 +51,22 @@ text-decoration-color: lightseagreen;
     /* transition: background-color 2s; */
     /* transition: 2s;  SE TRANSFORMA PE FORMA INITIALA */
     /* transition: 2s; */
-    transition: transform 2s, background-color 1s;
+    /* transition: transform 2s, background-color 1s; */
+    transition: 1s;
 }
 .trans:hover {
     background-color: mediumvioletred;
+}
+.trans2 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: chartreuse;
+    padding: 30px;
+    transform: rotate(-360deg);
+    transform-origin: top left;
+    /* transition: transform 2s; se pune tranzitia doar pe transform, doar pe rotatie*/ 
+    transition: transform 2s;
+    transition-delay: 1s;
 }
